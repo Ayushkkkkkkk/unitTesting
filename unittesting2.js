@@ -35,3 +35,6 @@ function orderTotal(order) {
   }) !== 60) {
     throw new Error('Check fail: Happy path (Example 2)')
   }
+
+
+  module.exports = orderTotal
