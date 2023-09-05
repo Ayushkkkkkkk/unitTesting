@@ -1,6 +1,8 @@
 const orderTotal = require('./order-total')
 
-const emptyFunction = () => {}
+const emptyFunction = () => {
+  return "404"
+}
 
 it('calls vatapi.com correctly', () => {
   let isFakeFetchCalled = false
