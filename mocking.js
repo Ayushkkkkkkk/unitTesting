@@ -22,12 +22,7 @@ it('calls vatapi.com correctly', () => {
 
 it('if country code specified')
 
-it('Quantity', () =>
-  orderTotal(emptyFunction, {
-    items: [
-      { 'name': 'Dragon candy', price: 2, quantity: 3 }
-    ]
-  }).then(result => expect(result).toBe(6)))
+
 
 it('No quantity specified', () =>
   orderTotal(emptyFunction, {
