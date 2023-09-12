@@ -10,7 +10,7 @@ it('calls vatapi.com correctly', () => {
     expect(url).toBe('https://vatapi.com/v1/country-code-check?code=DE')
     isFakeFetchCalled = true
   }
-  orderTotal(fakeFetch, {
+  orderTotal(fakeFetch, { 
     country: 'DE',
     items: [
       { 'name': 'Dragon waffles', price: 20, quantity: 2 }
